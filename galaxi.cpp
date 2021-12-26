@@ -7,6 +7,8 @@ static GLint axis=2;
 GLfloat diffuseMaterial[4]={0.5,0.5,0.5,1.0};
 /*initialize material property,light soure,lighting model,and depth buffer*/
 
+/*Hallo word*/
+
 void myinit(void)
 {
 glClearColor(0.0,0.0,0.0,0.0);
