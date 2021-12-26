@@ -58,7 +58,7 @@ glRotatef((GLfloat)V,0.0,1.0,0.0);
 glTranslatef(2.0,0.0,1.0);
 glRotatef((GLfloat)v,0.0,1.0,0.0);
 glColor3f(7.5,9.5,1.0);
-glutSolidSphere(0.2,20,8);   /*draw smaller plant venus*/
+glutSolidSphere(0.2,20,8);   //draw smaller plant venus/
 glPopMatrix();
 
 glPushMatrix();
@@ -66,11 +66,11 @@ glRotatef((GLfloat)E,0.0,1.0,0.0);
 glTranslatef(3.5,0.0,0.0);
 glRotatef((GLfloat)e,0.0,1.0,0.0);
 glColor3f(0.1,6.5,2.0);
-glutSolidSphere(0.2,20,8);    /*draw smaller plant earth*/
+glutSolidSphere(0.2,20,8);    //draw smaller plant earth/
 glRotatef((GLfloat)X,0.0,1.0,0.0);
 glTranslatef(0.3,0.2,0.0);
 glColor3f(4.3,3.5,8.0);
-glutSolidSphere(0.1,20,14);   /*draw moon*/
+glutSolidSphere(0.1,20,14);  //draw moon/
 glPopMatrix();
 
 glPushMatrix();
@@ -78,7 +78,7 @@ glRotatef((GLfloat)R,0.0,1.0,0.0);
 glTranslatef(5.0,0.0,3.0);
 glRotatef((GLfloat)r,0.0,1.0,0.0);
 glColor3f(1.0,0.2,0.0);
-glutSolidSphere(0.2,20,8);   /*draw smaller planet mars*/
+glutSolidSphere(0.2,20,8);   //draw smaller planet mars/
 glPopMatrix();
 
 glPushMatrix();
